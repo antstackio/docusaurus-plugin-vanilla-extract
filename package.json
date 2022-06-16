@@ -1,12 +1,15 @@
 {
   "name": "docusaurus-plugin-vanilla-extract",
-  "version": "0.0.1",
-  "description": "A plugin to use vanilla-extract with docusaurus",
+  "version": "1.0.0",
+  "description": "use vanilla-extract with docusaurus",
   "main": "docusaurus-plugin-vanilla-extract.js",
   "scripts": {
     "test": "test"
   },
-  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "@pruthvi21",
   "license": "ISC",
   "dependencies": {
     "@vanilla-extract/webpack-plugin": "^2.1.10"

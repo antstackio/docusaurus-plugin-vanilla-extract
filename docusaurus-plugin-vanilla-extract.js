@@ -9,7 +9,7 @@ module.exports = function (_, { id, ...options }) {
     name: "docusaurus-plugin-vanilla-extract",
     configureWebpack(_, isServer, utils) {
       return {
-        plugins: [new VanillaExtractPlugin()],
+        plugins: [new VanillaExtractPlugin(...options)],
       };
     },
   };
