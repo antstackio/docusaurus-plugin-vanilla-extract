@@ -2,9 +2,11 @@
   "name": "docusaurus-plugin-vanilla-extract",
   "version": "1.0.0",
   "description": "use vanilla-extract with docusaurus",
-  "main": "docusaurus-plugin-vanilla-extract.js",
+  "main": "./lib/docusaurus-plugin-vanilla-extract.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc",
+    "watch": "tsc -w"
   },
   "publishConfig": {
     "access": "public"
@@ -17,5 +19,9 @@
   "peerDependencies": {
     "@docusaurus/core": "^2.0.0-beta",
     "@vanilla-extract/css": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.3"
   }
 }
