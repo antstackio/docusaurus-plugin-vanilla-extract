@@ -1,11 +1,20 @@
 {
   "name": "docusaurus-plugin-vanilla-extract",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "use vanilla-extract with docusaurus",
   "main": "lib/docusaurus-plugin-vanilla-extract.js",
   "types": "lib/docusaurus-plugin-vanilla-extract.d.ts",
   "files": [
     "lib/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antstackio/docusaurus-plugin-vanilla-extract"
+  },
+  "keywords": [
+    "react",
+    "vanilla-extract",
+    "docusaurus"
   ],
   "scripts": {
     "test": "test",
