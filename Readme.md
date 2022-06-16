@@ -17,16 +17,18 @@ const config = {
 };
 ```
 
-Using Vanilla Extract config
+Using Vanilla Extract config (WIP)
 
 ```js
 // docusaurus.config.js
 const config = {
   plugins: [
-    "docusaurus-plugin-vanilla-extract",
-    {
-      /*enter config */
-    },
+    [
+      "docusaurus-plugin-vanilla-extract",
+      {
+        /*enter config */
+      },
+    ],
   ],
 };
 ```
