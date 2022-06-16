@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "use vanilla-extract with docusaurus",
   "main": "./lib/docusaurus-plugin-vanilla-extract.js",
+  "types": "./lib/docusaurus-plugin-vanilla-extract.d.ts",
   "scripts": {
     "test": "test",
     "build": "tsc",
