@@ -1,12 +1,18 @@
 {
   "name": "docusaurus-plugin-vanilla-extract",
-  "version": "0.0.1",
-  "description": "A plugin to use vanilla-extract with docusaurus",
-  "main": "docusaurus-plugin-vanilla-extract.js",
+  "version": "1.0.0",
+  "description": "use vanilla-extract with docusaurus",
+  "main": "./lib/docusaurus-plugin-vanilla-extract.js",
+  "types": "./lib/docusaurus-plugin-vanilla-extract.d.ts",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc",
+    "watch": "tsc -w"
   },
-  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "@pruthvi21",
   "license": "ISC",
   "dependencies": {
     "@vanilla-extract/webpack-plugin": "^2.1.10"
@@ -14,5 +20,9 @@
   "peerDependencies": {
     "@docusaurus/core": "^2.0.0-beta",
     "@vanilla-extract/css": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.3"
   }
 }
